@@ -17,6 +17,16 @@ You will find this is far easier than the opposite task of using CSS to cram you
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-color: white;
+    background-color: black;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 .container {
@@ -53,6 +63,51 @@ img {
 select {
     display: block;
     width: 100%;
+}
+
+.modal {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: opacity .5s ease-in-out;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, .65);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex-basis: 45%;
+}
+
+.modal.active {
+    z-index: 2;
+    opacity: 1;
+}
+
+.modal .inner {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.modal .close {
+    font-size: 2rem;
+    position: absolute;
+    top: 18px;
+    right: 28px;
+    text-decoration: none;
+    color: #000;
 }
 
 /* Tablet/Desktop overrides */
