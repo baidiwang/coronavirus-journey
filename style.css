@@ -16,17 +16,59 @@ You will find this is far easier than the opposite task of using CSS to cram you
 
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
-    font-size: 16px;
-    font-color: white;
+    font-size: 1em;
+    font-family: Verdana, sans-serif;
     background-color: black;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
 }
 
 h1 {
+    color: black;
+    font-size: 3em;
+    width: 90%;
+    display: inline;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: yellow;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+h1 span {
+    top: -30px;
+    right: -150px;
+    position: relative;
+    font-size: .5em;
+}
+
+h3 {
+    font-size: 1em;
+    width: 90%;
     color: white;
+    font-weight: normal;
+    text-align: center;
+}
+
+h5 {
+    color: white;
+    font-size: 1em;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
 }
 
 p {
     color: white;
+    text-align: center;
+}
+
+.filter {
+    text-align: center;
 }
 
 .container {
