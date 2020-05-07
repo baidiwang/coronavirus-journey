@@ -67,6 +67,14 @@ p {
     text-align: center;
 }
 
+.data-caption {
+    font-size: 1em;
+    width: 90%;
+    font-weight: lighter;
+    text-align: center;
+    color: black;
+}
+
 .filter {
     text-align: center;
 }
