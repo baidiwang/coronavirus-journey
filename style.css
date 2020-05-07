@@ -25,12 +25,12 @@ html, body {
 }
 
 h1 {
-    color: black;
+    color: yellow;
     font-size: 3em;
     width: 90%;
     display: inline;
     -webkit-text-stroke-width: .5px;
-    -webkit-text-stroke-color: yellow;
+    -webkit-text-stroke-color: black;
     margin-bottom: 0px;
     text-align: center;
 }
