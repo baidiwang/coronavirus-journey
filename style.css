@@ -22,9 +22,15 @@ html, body {
     height: 100%;
     text-decoration: none;
     text-align: center;
+    margin: auto;
+    background-image: url(img/Plane1.jpg), url(img/Plane2.jpg);
+    background-position: top center, bottom center;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
 }
 
 h1 {
+    text-shadow: 1px 1px #c23407;
     color: yellow;
     font-size: 3em;
     width: 90%;
@@ -33,6 +39,7 @@ h1 {
     -webkit-text-stroke-color: black;
     margin-bottom: 0px;
     text-align: center;
+    margin: auto;
 }
 
 h1 span {
@@ -40,6 +47,7 @@ h1 span {
     right: -150px;
     position: relative;
     font-size: .5em;
+    margin: auto;
 }
 
 h3 {
@@ -48,6 +56,7 @@ h3 {
     color: white;
     font-weight: normal;
     text-align: center;
+    margin: auto;
 }
 
 h5 {
@@ -56,6 +65,7 @@ h5 {
     width: 90%;
     font-weight: lighter;
     text-align: center;
+    margin: auto;
 }
 
 a {
@@ -63,8 +73,12 @@ a {
 }
 
 p {
-    color: white;
+    color: #000;
     text-align: center;
+}
+
+.video {
+    color: #000;
 }
 
 .data-caption {
@@ -76,7 +90,7 @@ p {
 }
 
 .filter {
-    text-align: center;
+    margin: auto;
 }
 
 .container {
@@ -125,6 +139,7 @@ select {
     transition: opacity .5s ease-in-out;
     opacity: 0;
     background-color: rgba(0, 0, 0, .65);
+    overflow: hidden
 }
 
 .flex {
@@ -146,6 +161,7 @@ select {
     position: relative;
     width: 100%;
     max-width: 1200px;
+    height: 100%;
     margin: 0 auto;
     padding: 10px;
     background-color: #fff;
@@ -158,6 +174,14 @@ select {
     right: 28px;
     text-decoration: none;
     color: #000;
+}
+
+.modal img {
+    max-height: 90%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
 
 /* Tablet/Desktop overrides */

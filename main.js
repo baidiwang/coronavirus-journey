@@ -13,7 +13,7 @@ $("body").on("click", "a.img", function (e) {
 	e.preventDefault()
 
 	const this_a = e.target;
-	const img_src = $(this_a).attr("src");
+	const img_src = $(this_a).data("full-image");
 	const caption = $(this_a).data("caption");
 
 	$(".modal img").attr("src", img_src);
