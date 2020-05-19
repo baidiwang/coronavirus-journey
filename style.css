@@ -30,8 +30,8 @@ html, body {
 }
 
 h1 {
-    text-shadow: 1px 1px #c23407;
-    color: yellow;
+    text-shadow: 1px 1px yellow;
+    color: white;
     font-size: 3em;
     width: 90%;
     display: inline;
@@ -91,6 +91,7 @@ p {
 
 .filter {
     margin: auto;
+    color: red;
 }
 
 .container {
