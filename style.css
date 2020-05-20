@@ -92,6 +92,7 @@ p {
 .filter {
     margin: auto;
     color: red;
+    text-align: center;
 }
 
 .container {
@@ -215,28 +216,6 @@ select {
     float: right;
 }
 
-.bottom {
-    width: 100%;
-    display: block;
-    margin-top: 50px;
-    padding-top: 0px;
-    height: 20px;
-    color: white;
-    border-top: 1px dotted #white;
-    font-size: .8em;
-    font: white;
-}
-
-.bottom p {
-    vertical-align: middle;
-}
-
-.bottom img {
-    width: 30px;
-    padding-left: 5px;
-    margin-bottom: 30px;
-}
-
 /* Tablet/Desktop overrides */
 @media(min-width: 681px) {
 
@@ -250,29 +229,34 @@ select {
     }
 
     .bottom {
+        border-top: 1px dotted #BDCEDA;
+        padding-top: 10px;
+        font-size: .75em;
+        color: yellow;
+        display: inline;
         width: 100%;
-        display: block;
-        margin-top: 40px;
-        padding-top: 0px;
-        height: 20px;
-        color: white;
-        border-top: 1px dotted white;
-        margin-bottom: 40px;
+        padding-bottom: 20px;
     }
 
     .bottom p {
+        display: inline;
         vertical-align: middle;
-        height: 20px;
+        color: white;
     }
 
     .bottom img {
         width: 30px;
+        display: inline;
         padding-left: 5px;
         vertical-align: middle;
-        margin-bottom: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-}
 
-@media(min-width: 729px) {
-    /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
-}
+    .container.center {
+        margin-bottom: 10px;
+    }
+
+    @media(min-width: 729px) {
+        /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
+    }
