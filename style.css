@@ -109,7 +109,7 @@ p {
 }
 
 .container {
-    max-width: 800px;
+    max-width: 600px;
     margin: 0 auto;
     padding: 5px;
 }
@@ -200,28 +200,28 @@ select {
 }
 
 .right_bottom img {
-    max-width: 200px;
-    width: 15%;
+    max-width: 100px;
+    width: 10%;
     border-radius: 50%;
     position: absolute;
     display: flex;
-    right: 5%;
+    right: 3%;
     float: right;
 }
 
 .left img {
-    max-width: 200px;
-    width: 15%;
+    max-width: 100px;
+    width: 10%;
     border-radius: 50%;
     position: absolute;
     display: flex;
-    right: 85%;
+    right: 90%;
     float: left;
 }
 
 .right_top img {
-    max-width: 200px;
-    width: 15%;
+    max-width: 100px;
+    width: 10%;
     border-radius: 50%;
     position: absolute;
     display: flex;
